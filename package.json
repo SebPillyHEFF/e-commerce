@@ -1,0 +1,24 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watchcss": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SebPillyHEFF/e-commerce.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SebPillyHEFF/e-commerce/issues"
+  },
+  "homepage": "https://github.com/SebPillyHEFF/e-commerce#readme",
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.8",
+    "tailwindcss": "^3.2.4"
+  }
+}
